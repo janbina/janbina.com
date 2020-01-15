@@ -1,54 +1,38 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import { Helmet } from 'react-helmet';
 import '../styles/index.css';
 
 function Index() {
-  const [date, setDate] = useState(null);
-  useEffect(() => {
-    async function getDate() {
-      const res = await fetch('/api/date');
-      const newDate = await res.text();
-      setDate(newDate);
-    }
-    getDate();
-  }, []);
   return (
     <main>
       <Helmet>
-        <title>Gatsby + Node.js (TypeScript) API</title>
+        <title>Jan Bína - janbina.com</title>
       </Helmet>
-      <h1>Gatsby + Node.js (TypeScript) API</h1>
-      <h2>
-        Deployed with{' '}
-        <a
-          href="https://zeit.co/docs"
-          target="_blank"
-          rel="noreferrer noopener"
-        >
-          ZEIT Now
-        </a>
-        !
-      </h2>
+      <h1>Jan Bína</h1>
+      <p>
+        I'm an <strong>Android developer</strong> based in Czech Republic
+      </p>
       <p>
         <a
-          href="https://github.com/zeit/now-examples/blob/master/gatsby-functions"
-          target="_blank"
-          rel="noreferrer noopener"
+          href="mailto:mail@janbina.com"
         >
-          This project
-        </a>{' '}
-        is a <a href="https://www.gatsbyjs.org/">Gatsby</a> app with two
-        directories, <code>/src</code> for static content and <code>/api</code>{' '}
-        which contains a serverless{' '}
-        <a href="https://nodejs.org/en/">Node.js (TypeScript)</a> function. See{' '}
-        <a href="/api/date">
-          <code>api/date</code> for the Date API with Node.js (TypeScript)
+          mail@janbina.com
+        </a> <br/>
+        <a
+          href="https://github.com/janbina"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          github.com/janbina
+        </a> <br/>
+        <a
+          href="https://www.linkedin.com/in/jan-bina"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          linkedin.com/in/jan-bina
         </a>
-        .
       </p>
-      <br />
-      <h2>The date according to Node.js (TypeScript) is:</h2>
-      <p>{date ? date : 'Loading date...'}</p>
     </main>
   );
 }

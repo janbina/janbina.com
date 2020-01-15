@@ -13,5 +13,16 @@ module.exports = {
         icon: 'src/images/gatsby-icon.png',
       },
     },
+    {
+      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      options: {
+        fonts: [
+          {
+            family: `Source Code Pro`,
+            variants: [`300`, `400`, `500`],
+          },
+        ],
+      },
+    },
   ],
 };
