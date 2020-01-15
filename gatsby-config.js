@@ -1,16 +1,16 @@
 module.exports = {
   siteMetadata: {
-    title: "Gatsby + Node.js (TypeScript) API"
+    title: "Jan Bina - janbina.com"
   },
   plugins: [
     "gatsby-plugin-react-helmet",
     {
       resolve: "gatsby-plugin-manifest",
       options: {
-        name: "Gatsby + Node.js (TypeScript) API",
-        short_name: "Gatbsy + Node.js (TypeScript)",
+        name: "Jan Bina - janbina.com",
+        short_name: "Jan Bina - janbina.com",
         start_url: "/",
-        icon: "src/images/gatsby-icon.png"
+        icon: "src/images/icon.png"
       }
     },
     {
