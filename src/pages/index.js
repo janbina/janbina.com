@@ -10,7 +10,7 @@ function Index() {
       </Helmet>
       <h1>Jan Bína</h1>
       <p>
-        I&apos;m an <strong>Android developer</strong> based in Czech Republic
+        I&apos;m an <strong>Android developer</strong> based in the Czech Republic
       </p>
       <p>
         <a href="mailto:mail@janbina.com">mail@janbina.com</a>

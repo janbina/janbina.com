@@ -3,13 +3,14 @@ main {
   hyphens: auto;
   line-height: 1.65;
   margin: 0 auto;
-  max-width: 730px;
-  padding: 56px 0;
+  max-width: 830px;
+  padding: 56px 20px;
   font-family: 'Source Code Pro', monospace;
   font-weight: 300;
+  color: #212121;
 }
 h1 {
-  font-size: 45px;
+  font-size: 53px;
   font-weight: 500;
 }
 strong {
@@ -19,7 +20,7 @@ p {
   font-size: 25px;
 }
 a {
-  font-size: 23px;
+  font-size: 22px;
   color: #212121;
   font-weight: 400;
   transition: all 0.2s ease;
