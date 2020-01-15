@@ -1,6 +1,6 @@
-import React from 'react';
-import { Helmet } from 'react-helmet';
-import '../styles/index.css';
+import React from "react";
+import { Helmet } from "react-helmet";
+import "../styles/index.css";
 
 function Index() {
   return (
@@ -10,21 +10,19 @@ function Index() {
       </Helmet>
       <h1>Jan Bína</h1>
       <p>
-        I'm an <strong>Android developer</strong> based in Czech Republic
+        I&apos;m an <strong>Android developer</strong> based in Czech Republic
       </p>
       <p>
-        <a
-          href="mailto:mail@janbina.com"
-        >
-          mail@janbina.com
-        </a> <br/>
+        <a href="mailto:mail@janbina.com">mail@janbina.com</a>
+        <br />
         <a
           href="https://github.com/janbina"
           target="_blank"
           rel="noopener noreferrer"
         >
           github.com/janbina
-        </a> <br/>
+        </a>{" "}
+        <br />
         <a
           href="https://www.linkedin.com/in/jan-bina"
           target="_blank"
