@@ -13,7 +13,7 @@ function Index() {
         I&apos;m an <strong>Android developer</strong> based in the Czech Republic
       </p>
       <p>
-        <a href="mailto:mail@janbina.com">mail@janbina.com</a>
+        <a href="mailto:jan@janbina.com">jan@janbina.com</a>
         <br />
         <a
           href="https://github.com/janbina"
