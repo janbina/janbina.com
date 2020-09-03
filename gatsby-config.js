@@ -10,7 +10,7 @@ module.exports = {
         name: "Jan Bina - janbina.com",
         short_name: "Jan Bina - janbina.com",
         start_url: "/",
-        icon: "src/images/icon.png"
+        icon: "src/images/icon.svg"
       }
     },
     {
