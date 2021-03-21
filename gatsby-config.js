@@ -13,17 +13,7 @@ module.exports = {
         icon: "src/images/water_buffalo.png",
       }
     },
-    {
-      resolve: "gatsby-plugin-prefetch-google-fonts",
-      options: {
-        fonts: [
-          {
-            family: "Source Code Pro",
-            variants: ["300", "400", "500"]
-          }
-        ]
-      }
-    },
+    `gatsby-plugin-preload-fonts`,
     {
       resolve: "gatsby-plugin-google-analytics",
       options: {
