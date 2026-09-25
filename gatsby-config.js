@@ -1,9 +1,9 @@
 module.exports = {
+  jsxRuntime: "automatic",
   siteMetadata: {
-    title: "Jan Bina - janbina.com"
+    title: "Jan Bina - janbina.com",
   },
   plugins: [
-    "gatsby-plugin-react-helmet",
     {
       resolve: "gatsby-plugin-manifest",
       options: {
@@ -11,14 +11,7 @@ module.exports = {
         short_name: "Jan Bina - janbina.com",
         start_url: "/",
         icon: "src/images/water_buffalo.png",
-      }
+      },
     },
-    `gatsby-plugin-preload-fonts`,
-    {
-      resolve: "gatsby-plugin-google-analytics",
-      options: {
-        trackingId: "UA-44604096-6"
-      }
-    }
-  ]
+  ],
 };

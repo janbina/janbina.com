@@ -5,7 +5,7 @@ main {
   margin: 0 auto;
   max-width: 830px;
   padding: 56px 20px;
-  font-family: 'Source Code Pro', monospace;
+  font-family: "Source Code Pro", monospace;
   font-weight: 300;
   color: #212121;
 }
@@ -26,11 +26,11 @@ a {
   transition: all 0.2s ease;
 }
 a:hover {
-  color: #0097A7;
+  color: #0097a7;
 }
 ::selection {
-  background: #4DD0E1;
+  background: #4dd0e1;
 }
 ::-moz-selection {
-  background: #4DD0E1;
+  background: #4dd0e1;
 }
