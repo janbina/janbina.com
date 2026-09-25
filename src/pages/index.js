@@ -1,16 +1,10 @@
-import React from "react";
-import { Helmet } from "react-helmet";
-import "../styles/index.css";
-
 function Index() {
   return (
     <main>
-      <Helmet>
-        <title>Jan Bína - janbina.com</title>
-      </Helmet>
       <h1>Jan Bína</h1>
       <p>
-        I&apos;m an <strong>Android developer</strong> based in the Czech Republic
+        I&apos;m an <strong>Android developer</strong> based in the Czech
+        Republic
       </p>
       <p>
         <a href="mailto:jan@janbina.com">jan@janbina.com</a>
@@ -36,3 +30,5 @@ function Index() {
 }
 
 export default Index;
+
+export const Head = () => <title>Jan Bína - janbina.com</title>;
